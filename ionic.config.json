@@ -1,0 +1,7 @@
+{
+  "name": "ionic-angular-parallax",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
