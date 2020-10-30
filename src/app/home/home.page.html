@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar color="primary">
+		<ion-title>Parallax</ion-title>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content appParallaxHeader [scrollEvents]="true">
+	<!--set class of div directly in template-->
+	<div
+		class="parallax-image"
+		[style.background-image]="'url(' + myImagePath + ')'"
+	></div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+	<!--main block with text list array, also created in template -->
+	<div class="main">
+		<ion-list>
+			<ion-item *ngFor="let i of [].constructor(30)">Line of Text</ion-item>
+		</ion-list>
+	</div>
 </ion-content>
