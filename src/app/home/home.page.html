@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
-	<ion-toolbar color="primary">
-		<ion-title>Parallax</ion-title>
-	</ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-title>Parallax</ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content appParallaxHeader [scrollEvents]="true">
-	<!--set class of div directly in template-->
-	<div
-		class="parallax-image"
-		[style.background-image]="'url(' + myImagePath + ')'"
-	></div>
+  <!--set class of div directly in template-->
+  <div
+    class="parallax-image"
+    [style.background-image]="'url(' + myImagePath + ')'"
+  ></div>
 
-	<!--main block with text list array, also created in template -->
-	<div class="main">
-		<ion-list>
-			<ion-item *ngFor="let i of [].constructor(30)">Line of Text</ion-item>
-		</ion-list>
-	</div>
+  <!--main block with text list array, also created in template -->
+  <div class="main">
+    <ion-list>
+      <ion-item *ngFor="let i of [].constructor(30)">Line of Text</ion-item>
+    </ion-list>
+  </div>
 </ion-content>

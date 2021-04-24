@@ -30,7 +30,7 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -61,7 +61,7 @@ ngOnInit() {
 ## :clipboard: Status & To-do list
 
 * Status: Working
-* To-do: Improve commenting & readme
+* To-do: Nothing
 
 ## :clap: Inspiration
 
@@ -70,6 +70,10 @@ ngOnInit() {
 * [Stackoverflow: 'Angular 2 - NgFor using numbers instead collections'](https://devdactic.com/ionic-firebase-chat/)
 * [JOSH MORONY blog: Increasing Performance with Efficient DOM Writes in Ionic](https://www.joshmorony.com/increasing-performance-with-efficient-dom-writes-in-ionic-2/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
