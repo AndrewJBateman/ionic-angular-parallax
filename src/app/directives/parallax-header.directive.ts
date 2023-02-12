@@ -1,4 +1,4 @@
-import { Directive, ElementRef, HostListener, Renderer2 } from "@angular/core";
+import { Directive, ElementRef,  HostListener, Renderer2 } from "@angular/core";
 import { DomController } from "@ionic/angular";
 
 @Directive({
@@ -6,9 +6,9 @@ import { DomController } from "@ionic/angular";
 })
 export class ParallaxHeaderDirective {
   header: any;
-  headerHeight: number;
-  moveImage: number;
-  scaleImage: number;
+  headerHeight: number = 0;
+  moveImage: number = 0;
+  scaleImage: number = 0;
   constructor(
     public element: ElementRef,
     public renderer: Renderer2,
@@ -18,7 +18,7 @@ export class ParallaxHeaderDirective {
   // get Home page element to be manipulated using 'getElementsByClassName' and take first item from list
   ngOnInit() {
     let content = this.element.nativeElement;
-
+    console.log("content", content);
     this.header = content.getElementsByClassName("parallax-image")[0];
 
     this.domCtrl.read(() => {
@@ -28,7 +28,7 @@ export class ParallaxHeaderDirective {
   }
 
   // access individual event
-  @HostListener("ionScroll", ["$event"]) onContentScroll($event) {
+  @HostListener("ionScroll", ["$event"]) onContentScroll($event: any) {
     console.log("event detail scrollTop: ", $event.detail.scrollTop);
     const scrollTop = $event.detail.scrollTop;
 
