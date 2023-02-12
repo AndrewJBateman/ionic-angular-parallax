@@ -28,9 +28,10 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular) Ionic Angular building blocks
+* [Angular v15](https://angular.io/)
+* [Ionic Native Splash Screen v5](@ionic-native/splash-screen) plugin to display and hide a splash screen during application launch. Not actually used yet here.
 
 ## :floppy_disk: Setup
 
@@ -67,7 +68,7 @@ ngOnInit() {
 
 * [Simon Grimm Youtube: 'Building an Ionic Parallax Image Effect'](https://www.youtube.com/watch?v=TsIVWQf1qNA&t=62s)
 * [Ionic Academy: Building an Ionic Parallax Image Effect [v5]](https://ionicacademy.com/ionic-parallax-image/)
-* [Stackoverflow: 'Angular 2 - NgFor using numbers instead collections'](https://devdactic.com/ionic-firebase-chat/)
+* [Stackoverflow: 'Angular 2 - NgFor using numbers instead collections'](https://stackoverflow.com/questions/36354325/angular-2-ngfor-using-numbers-instead-collections)
 * [JOSH MORONY blog: Increasing Performance with Efficient DOM Writes in Ionic](https://www.joshmorony.com/increasing-performance-with-efficient-dom-writes-in-ionic-2/)
 
 ## :file_folder: License
